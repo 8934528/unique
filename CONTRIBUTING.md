@@ -1,12 +1,12 @@
 # Contributing to UniqueID Pro
 
-First off, thank you for considering contributing to UniqueID Pro! It's people like you that make this system better for everyone. We welcome contributions from everyone, whether it's a bug report, feature suggestion, documentation improvement, or code change.
+First off, thank you for considering contributing to UniqueID Pro! It's people like you that make this system better for everyone. I welcome contributions from everyone, whether it's a bug report, feature suggestion, documentation improvement, or code change.
 
 ## Code of Conduct
 
 ### Our Pledge
 
-In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+In the interest of fostering an open and welcoming environment, I as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
 ### Our Standards
 
