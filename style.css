@@ -1,0 +1,135 @@
+body {
+    font-family: 'Segoe UI', 'Times New Roman', serif;
+}
+
+.container-fluid {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.custom-scroll::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+    background: #1e293b;
+    border-radius: 3px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+    background: #0891b2;
+    border-radius: 3px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+    background: #06b6d4;
+}
+
+input:focus, select:focus {
+    box-shadow: 0 0 0 2px rgba(6, 182, 212, 0.2);
+}
+
+#qrcode canvas {
+    margin: 0 auto;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.tab-pane {
+    transition: opacity 0.2s ease;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+.tab-pane.hidden {
+    display: none;
+}
+
+/* Button hover effects */
+button:not(:disabled) {
+    transition: all 0.2s ease;
+}
+
+button:not(:disabled):hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes softGlow {
+    0% { border-color: #0891b2; }
+    50% { border-color: #06b6d4; box-shadow: 0 0 10px rgba(6, 182, 212, 0.3); }
+    100% { border-color: #0891b2; }
+}
+
+.glow-effect {
+    animation: softGlow 1s ease-in-out;
+}
+
+.history-item {
+    transition: background-color 0.2s ease;
+}
+
+.history-item:hover {
+    background-color: #2d3a4f;
+}
+
+/* Search results */
+.search-highlight {
+    background-color: rgba(6, 182, 212, 0.2);
+    padding: 0 2px;
+    border-radius: 2px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+*:not(input):not(textarea) {
+    user-select: none;
+}
+
+.stat-card {
+    background: linear-gradient(135deg, #2d3a4f 0%, #1e293b 100%);
+    border: 1px solid #334155;
+}
+
+.data-table {
+    border-collapse: separate;
+    border-spacing: 0 4px;
+}
+
+.data-table td {
+    padding: 6px 8px;
+    background-color: #334155;
+}
+
+.data-table tr:first-child td:first-child { border-radius: 4px 0 0 4px; }
+.data-table tr:first-child td:last-child { border-radius: 0 4px 4px 0; }
+
+/* Tooltip */
+.tooltip {
+    position: relative;
+}
+
+.tooltip:hover:after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #1e293b;
+    color: #e2e8f0;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    white-space: nowrap;
+    border: 1px solid #334155;
+    margin-bottom: 4px;
+}
