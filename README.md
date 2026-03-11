@@ -6,7 +6,7 @@
 
 registration and identity management system that generates unique identification codes and QR codes for candidates. Built with HTML, CSS, and JavaScript, featuring a professional dark-themed interface with multiple tabs, analytics, and data management tools.
 
-![UniqueID Pro Screenshot](screenshot-placeholder.jpg)
+![UniqueID Pro Screenshot](assets/uniq_phot/UniquePro.png)
 
 ## Features
 
