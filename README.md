@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-stable-brightgreen)
 
-A comprehensive, registration and identity management system that generates unique identification codes and QR codes for candidates. Built with HTML, CSS, and JavaScript, featuring a professional dark-themed interface with multiple tabs, analytics, and data management tools.
+registration and identity management system that generates unique identification codes and QR codes for candidates. Built with HTML, CSS, and JavaScript, featuring a professional dark-themed interface with multiple tabs, analytics, and data management tools.
 
 ![UniqueID Pro Screenshot](screenshot-placeholder.jpg)
 
