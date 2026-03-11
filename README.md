@@ -8,24 +8,6 @@ registration and identity management system that generates unique identification
 
 ![UniqueID Pro Screenshot](screenshot-placeholder.jpg)
 
-## Table of Contents
-
-- [Features](#features)
-- [Technology Stack](#technology-stack)
-- [Installation](#installation)
-- [Quick Start](#quick-start)
-- [Usage Guide](#usage-guide)
-- [System Architecture](#system-architecture)
-- [File Structure](#file-structure)
-- [API Reference](#api-reference)
-- [Data Formats](#data-formats)
-- [Keyboard Shortcuts](#keyboard-shortcuts)
-- [Customization](#customization)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [License](#license)
-- [Support](#support)
-
 ## Features
 
 ### Core Functionality
@@ -61,7 +43,7 @@ registration and identity management system that generates unique identification
 - **Clear Data** - Reset system when needed
 - **Backup Compatible** - Easy to backup JSON files
 
-## 🛠 Technology Stack
+## Technology Stack
 
 - **HTML5** - Structure and semantics
 - **CSS3** - Styling with Tailwind CSS
